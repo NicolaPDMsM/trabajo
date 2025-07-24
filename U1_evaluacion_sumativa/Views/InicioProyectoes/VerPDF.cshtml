@@ -1,0 +1,219 @@
+﻿@{
+
+    ViewData["Title"] = "Details";
+    var trabajadores = ViewBag.Trabajadores as List<Trabajadore> ?? new List<Trabajadore>();
+    var direccionamientos = ViewBag.DireccionamientoIp as List<DireccionamientoIp> ?? new List<DireccionamientoIp>();
+
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vista con Cartas</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+
+        .no-print {
+            margin-bottom: 20px;
+        }
+
+        .no-print a {
+            display: inline-block;
+            padding: 10px 16px;
+            margin-right: 10px;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+
+        .no-print a.btn-danger {
+            background-color: #dc3545;
+        }
+
+        .section-group {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .section {
+            flex: 1;
+            background-color: white;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        h2, h4 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        /* NUEVO: tabla sin bordes para info general */
+        .info-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .info-table th,
+        .info-table td {
+            text-align: left;
+            padding: 0px 0;
+            vertical-align: top;
+            border: none;
+        }
+
+        .info-table th {
+            font-weight: bold;
+            width: 40%;
+            color: #333;
+        }
+
+        .info-table td {
+            color: #555;
+        }
+
+        /* tabla tradicional con bordes */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        thead {
+            background-color: #d4edda;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%; table-layout: fixed;">
+        <tr>
+            <td style="vertical-align: top; width: 50%; border: none;">
+                <div class="section">
+                    <h4>Información del Proyecto</h4>
+                    <table class="info-table">
+                        <tr>
+                            <th>Nombre</th>
+                            <td>@Model.Proyecto.Nombre</td>
+                        </tr>
+                        <tr>
+                            <th>Descripción</th>
+                            <td>@Model.Proyecto.Descripcion</td>
+                        </tr>
+                        <tr>
+                            <th>Estado</th>
+                            <td>@Model.Proyecto.Estado</td>
+                        </tr>
+                        <tr>
+                            <th>Tipo</th>
+                            <td>@Model.Proyecto.Tipo</td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+            <td style="vertical-align: top; width: 50%; border: none;">
+                <div class="section">
+                    <h4>Información de Inicio del Proyecto</h4>
+                    <table class="info-table">
+                        <tr>
+                            <th>Entidad Involucrada</th>
+                            <td>@Model.EntidadInvolucrada</td>
+                        </tr>
+                        <tr>
+                            <th>Fecha de Inicio</th>
+                            <td>@Model.FechaInicio</td>
+                        </tr>
+                        <tr>
+                            <th>Fecha de Finalización</th>
+                            <td>@Model.FechaFinalizacion</td>
+                        </tr>
+                        <tr>
+                            <th>Estado</th>
+                            <td>@Model.Estado</td>
+                        </tr>
+                        <tr>
+                            <th>Observaciones</th>
+                            <td>@Model.Observaciones</td>
+                        </tr>
+                    </table>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <hr />
+
+    <h2>Trabajadores del Proyecto</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Cargo</th>
+                <th>Usuario</th>
+                <th>Correo</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var trabajador in trabajadores)
+            {
+                <tr>
+                    <td>@trabajador.Id</td>
+                    <td>@trabajador.Cargo</td>
+                    <td>@trabajador.Usuario?.Nombre</td>
+                    <td>@trabajador.Usuario?.Correo</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <hr />
+
+    <h2>Direccionamiento IP Asociado</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Network</th>
+                <th>Mask</th>
+                <th>Cant IP Totales</th>
+                <th>Cant IP Host</th>
+                <th>Ip Broadcast</th>
+                <th>Rango Inicial</th>
+                <th>Rango Final</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var direccionamiento in direccionamientos)
+            {
+                <tr>
+                    <td>@direccionamiento.IpNetwork/@direccionamiento.Prefijo</td>
+                    <td>@direccionamiento.Mask</td>
+                    <td>@direccionamiento.CantIptotales</td>
+                    <td>@direccionamiento.CantIpHost</td>
+                    <td>@direccionamiento.IpBroadcast</td>
+                    <td>@direccionamiento.RangoInicial</td>
+                    <td>@direccionamiento.RangoFinal</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</body>
+</html>

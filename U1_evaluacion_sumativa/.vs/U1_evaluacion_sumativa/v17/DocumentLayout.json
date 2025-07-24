@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\nicol\\downloads\\trabajo-master\\u1_evaluacion_sumativa\\controllers\\inicioproyectoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:controllers\\inicioproyectoescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\nicol\\downloads\\trabajo-master\\u1_evaluacion_sumativa\\views\\inicioproyectoes\\visualizacionpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:views\\inicioproyectoes\\visualizacionpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\nicol\\downloads\\trabajo-master\\u1_evaluacion_sumativa\\views\\inicioproyectoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:views\\inicioproyectoes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\nicol\\downloads\\trabajo-master\\u1_evaluacion_sumativa\\views\\inicioproyectoes\\verpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:views\\inicioproyectoes\\verpdf.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|c:\\users\\nicol\\downloads\\trabajo-master\\u1_evaluacion_sumativa\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{001B73BA-6D2B-4703-B9D0-FA16E5B6D32B}|U1_evaluacion_sumativa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAACEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T21:47:09.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VisualizacionPDF.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\VisualizacionPDF.cshtml",
+              "RelativeDocumentMoniker": "Views\\InicioProyectoes\\VisualizacionPDF.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\VisualizacionPDF.cshtml",
+              "RelativeToolTip": "Views\\InicioProyectoes\\VisualizacionPDF.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T21:36:28.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InicioProyectoesController.cs",
+              "DocumentMoniker": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Controllers\\InicioProyectoesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InicioProyectoesController.cs",
+              "ToolTip": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Controllers\\InicioProyectoesController.cs",
+              "RelativeToolTip": "Controllers\\InicioProyectoesController.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAuwFwBAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T21:34:52.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\InicioProyectoes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\Details.cshtml",
+              "RelativeToolTip": "Views\\InicioProyectoes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T21:07:36.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerPDF.cshtml",
+              "DocumentMoniker": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\VerPDF.cshtml",
+              "RelativeDocumentMoniker": "Views\\InicioProyectoes\\VerPDF.cshtml",
+              "ToolTip": "C:\\Users\\nicol\\Downloads\\trabajo-master\\U1_evaluacion_sumativa\\Views\\InicioProyectoes\\VerPDF.cshtml",
+              "RelativeToolTip": "Views\\InicioProyectoes\\VerPDF.cshtml",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAAAKEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-24T21:01:38.926Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

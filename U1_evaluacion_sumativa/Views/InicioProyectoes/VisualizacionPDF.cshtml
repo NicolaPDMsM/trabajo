@@ -1,0 +1,19 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<a class="btn btn-secondary" asp-action=".">Volver</a>
+<a asp-action="EnviarPDF" asp-route-id="@Model.Id" class="btn btn-primary">Enviar PDF</a>
+<a href="@Url.Action("DescargarPDF", new { id = Model.Id })" class="btn btn-danger">Descargar PDF</a>
+
+<div style="margin-top: 20px;">
+    <iframe id="pdfFrame"
+            src="@Url.Action("VerPDF", new { id = Model.Id })"
+            width="100%"
+            height="700px"
+            frameborder="0">
+    </iframe>
+</div>
